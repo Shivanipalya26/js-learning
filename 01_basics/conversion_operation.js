@@ -35,3 +35,33 @@ let stringNumber =String(someNumber)
 
 console.log(typeof stringNumber)
 console.log(stringNumber);
+
+//************operation***************
+
+let val = 10
+let negVal = -val
+
+console.log(negVal)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2%2)
+console.log(2**2)
+
+
+let str1 = "shivani"
+let str2 = " hello"
+
+console.log(str1 + str2)
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+
+console.log(true)
+console.log(+true)
+//console.log(true+)        //errror
