@@ -6,7 +6,7 @@ tinder.id = "492022"
 tinder.name = "Sammy"
 tinder.isLoggedIn = false
 
-console.log(tinder);
+// console.log(tinder);
 
 const newObj = {
     email: "some@gmail.com",
@@ -30,7 +30,7 @@ const obj2 = {3 : "c", 4 : "e"}
 // console.log(obj3);
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 
 const users = [
@@ -47,9 +47,40 @@ const users = [
 
 users[1].email
 
-console.log(tinder);
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
+// console.log(tinder);
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
 
-console.log(tinder.hasOwnProperty('isLoggedIn'));
+// console.log(tinder.hasOwnProperty('isLoggedIn'));
+
+
+
+
+//objects destructure
+
+const course = {
+    courseName: "js in fun", 
+    price: 999, 
+    courseInstructor: "shivani"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor : instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+
+
+// {
+//     "name": "shivani",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
