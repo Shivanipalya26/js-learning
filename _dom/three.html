@@ -8,4 +8,18 @@
 <body>
     
 </body>
+<script>
+    const div = document.createElement('div');
+    console.log(div);
+    div.className = "main"
+    div.id = Math.floor(Math.random() * 100 + 1)
+    div.setAttribute("title", "Generated Title")
+    div.style.backgroundColor = "blue"
+    div.style.padding = '25px'
+    // div.innerHTML = "Hello, Good Morning!"
+    const addText = document.createTextNode("Hello, Good Morning!")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
 </html>
