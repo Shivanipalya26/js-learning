@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Code and Sleep and Code</h1>
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+
+    <script>
+        const name = function(str) {
+            console.log(str);
+        }
+        let intervalID;
+
+        document.querySelector(".start").addEventListener('click', function() {
+            intervalID = setInterval(name, 1000, "Hello")
+            console.log("Started");
+        })
+
+        document.querySelector(".stop").addEventListener("click", function() {
+            clearInterval(intervalID)
+            console.log("Stopped");
+        })
+
+
+        
+
+        clearInterval(intervalId)
+
+    </script>
+</body>
+</html>
+
+<!-- read about setInterval, setTimeout, clearInterval, clearTimeout -->
